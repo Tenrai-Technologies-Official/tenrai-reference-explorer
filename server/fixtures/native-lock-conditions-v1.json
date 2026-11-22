@@ -1,0 +1,58 @@
+[
+  {
+    "name": "timelock-boundary",
+    "descriptor_hex": "010101c332e892bc2328a58acb7b653fab18f24678acb2ab8ec807a0a1095a637c7b5b88e6ce1a8f5765750000000000000065",
+    "address": "ttrai1qyps3e0jkvm493fta5hejtjltpgrj4eey3kf6pzyja9nxuwt2w99tmr5ut6ryz5slcps6e7d9m",
+    "lock_hex": "0308e5f2b33752c52bed2f992e5f5850395739246c9d0444974b3371cb538a55ec74e2f4320a90fe03",
+    "request": {
+      "owner_address": "ttrai1qyquxvhgj27zx2993t9hkefl4vv0y3nc4je2hrkgq7s2zz26vd78kkugum8p4r6hv46sm499k9",
+      "type": "timelock",
+      "unlock_height": "101"
+    },
+    "branch": "claim",
+    "preimage_hex": ""
+  },
+  {
+    "name": "hashlock-claim",
+    "descriptor_hex": "010201c332e892bc2328a58acb7b653fab18f24678acb2ab8ec807a0a1095a637c7b5b88e6ce1a8f576575fc8b64001c5fdd0f2f40fb67dae4a865a2c5bd17836676d6d5b58b7917e33717",
+    "address": "ttrai1qyp5euzc2yxs20ggy0wnpqqpcej8vqu0q7eu90tvkrwajz5kv6t73eqqhv9e8el2eyzstkhuvr",
+    "lock_hex": "034cf058510d053d0823dd308001c66476038f07b3c2bd6cb0ddd90a966697e8e400bb0b93e7eac905",
+    "request": {
+      "hash_hex": "fc8b64001c5fdd0f2f40fb67dae4a865a2c5bd17836676d6d5b58b7917e33717",
+      "owner_address": "ttrai1qyquxvhgj27zx2993t9hkefl4vv0y3nc4je2hrkgq7s2zz26vd78kkugum8p4r6hv46sm499k9",
+      "type": "hashlock"
+    },
+    "branch": "claim",
+    "preimage_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5"
+  },
+  {
+    "name": "htlc-claim",
+    "descriptor_hex": "010301c332e892bc2328a58acb7b653fab18f24678acb2ab8ec807a0a1095a637c7b5b88e6ce1a8f57657501ac7f5221e0a0f7709300eaa2fef6ab00e34a2c180ba74b3744204754b0225baef3b9ab730bb2f8ccfc8b64001c5fdd0f2f40fb67dae4a865a2c5bd17836676d6d5b58b7917e3371700000000000000c8",
+    "address": "ttrai1qyp3pwrzdxshqna7v0y6h68m0qe0f8mzfvf2fuanhafd0lhv3navrtw92t2rncxqj7tsdwsrtg",
+    "lock_hex": "0310b86269a1704fbe63c9abe8fb7832f49f624b12a4f3b3bf52d7feec8cfac1adc552d439e0c09797",
+    "request": {
+      "claim_address": "ttrai1qyquxvhgj27zx2993t9hkefl4vv0y3nc4je2hrkgq7s2zz26vd78kkugum8p4r6hv46sm499k9",
+      "hash_hex": "fc8b64001c5fdd0f2f40fb67dae4a865a2c5bd17836676d6d5b58b7917e33717",
+      "refund_address": "ttrai1qyq6cl6jy8s2pamsjvqw4gh7764spc629svqhf6txazzq365kq39hthnhx4hxzajlrxqddh76c",
+      "refund_height": "200",
+      "type": "htlc"
+    },
+    "branch": "claim",
+    "preimage_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5"
+  },
+  {
+    "name": "htlc-refund",
+    "descriptor_hex": "010301c332e892bc2328a58acb7b653fab18f24678acb2ab8ec807a0a1095a637c7b5b88e6ce1a8f57657501ac7f5221e0a0f7709300eaa2fef6ab00e34a2c180ba74b3744204754b0225baef3b9ab730bb2f8ccfc8b64001c5fdd0f2f40fb67dae4a865a2c5bd17836676d6d5b58b7917e337170000000000000064",
+    "address": "ttrai1qypuqvdfq0gx9seffkk03vrafx59jwk97724fx5473m4gp75k8dqh9urf2qcklk788jqe6tew3",
+    "lock_hex": "03c031a903d062c3294dacf8b07d49a8593ac5f795549a95f4775407d4b1da0b97834a818b7ede39e4",
+    "request": {
+      "claim_address": "ttrai1qyquxvhgj27zx2993t9hkefl4vv0y3nc4je2hrkgq7s2zz26vd78kkugum8p4r6hv46sm499k9",
+      "hash_hex": "fc8b64001c5fdd0f2f40fb67dae4a865a2c5bd17836676d6d5b58b7917e33717",
+      "refund_address": "ttrai1qyq6cl6jy8s2pamsjvqw4gh7764spc629svqhf6txazzq365kq39hthnhx4hxzajlrxqddh76c",
+      "refund_height": "100",
+      "type": "htlc"
+    },
+    "branch": "refund",
+    "preimage_hex": ""
+  }
+]
